@@ -3,3 +3,5 @@ INSERT INTO `bd_nuevocursos`.`cursos` (`codCurso`, `nombre`, `duracion`, `precio
 INSERT INTO `bd_nuevocursos`.`cursos` (`codCurso`, `nombre`, `duracion`, `precio`) VALUES ('3', 'Inglés', '60', '300');
 INSERT INTO `bd_nuevocursos`.`cursos` (`codCurso`, `nombre`, `duracion`, `precio`) VALUES ('4', 'Literatura', '80', '400');
 INSERT INTO `bd_nuevocursos`.`cursos` (`codCurso`, `nombre`, `duracion`, `precio`) VALUES ('5', 'Música', '70', '500');
+
+

@@ -1,5 +1,6 @@
 package com.curso.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -11,7 +12,7 @@ import jakarta.persistence.Table;
  * a un curso, incluyendo su código, nombre, duración y precio.
  */
 @Entity
-@Table(name = "cursos")
+@Table(name ="cursos")
 public class Curso {
 
     @Id

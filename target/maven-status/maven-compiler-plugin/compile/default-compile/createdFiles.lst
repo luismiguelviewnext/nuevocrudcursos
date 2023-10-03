@@ -1,0 +1,6 @@
+com\curso\controller\CursoController.class
+com\curso\model\Curso.class
+com\curso\dao\CursosDao.class
+com\curso\nuevocrudcursos\NuevocrudcursosApplication.class
+com\curso\service\CursoServiceImpl.class
+com\curso\service\CursoService.class

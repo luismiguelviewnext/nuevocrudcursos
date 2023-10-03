@@ -7,3 +7,6 @@ CREATE TABLE `bd_nuevocursos`.`cursos` (
   `precio` INT NOT NULL,
   PRIMARY KEY (`codCurso`));
 
+ALTER TABLE `bd_nuevocursos`.`cursos` 
+ADD UNIQUE INDEX `codCurso_UNIQUE` (`codCurso` ASC) VISIBLE;
+;
