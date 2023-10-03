@@ -20,7 +20,7 @@ public class CursoServiceImpl implements CursoService {
      * Repositorio utilizado para acceder a los datos de los cursos.
      */
     @Autowired
-    private CursosDao cursosDao; 
+    CursosDao cursosDao; 
 
     /**
      * Registra un nuevo curso y devuelve una lista de todos los cursos.
@@ -93,4 +93,6 @@ public class CursoServiceImpl implements CursoService {
     public List<Curso> cursosPorPrecio(int minPrecio, int maxPrecio) {
         return cursosDao.findCursosByPrecioBetween(minPrecio, maxPrecio);
     }
+
+  
 }

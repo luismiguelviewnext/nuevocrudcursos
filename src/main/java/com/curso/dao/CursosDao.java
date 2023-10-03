@@ -22,4 +22,7 @@ public interface CursosDao extends JpaRepository<Curso, Integer> {
 
       @Query("SELECT c FROM Curso c WHERE c.precio BETWEEN :minPrecio AND :maxPrecio")
     List<Curso> findCursosByPrecioBetween(@Param("minPrecio") int minPrecio, @Param("maxPrecio") int maxPrecio);
+
+
+
 }

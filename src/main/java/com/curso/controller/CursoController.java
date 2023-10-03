@@ -82,4 +82,6 @@ public class CursoController {
     public List<Curso> cursosPorPrecio(@PathVariable("minPrecio") int minPrecio, @PathVariable("maxPrecio") int maxPrecio) {
         return service.cursosPorPrecio(minPrecio, maxPrecio);
     }
+
+
 }

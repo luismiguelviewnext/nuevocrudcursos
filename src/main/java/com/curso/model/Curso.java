@@ -1,7 +1,10 @@
 package com.curso.model;
 
+import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
@@ -16,6 +19,7 @@ import jakarta.persistence.Table;
 public class Curso {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int codCurso;
     private String nombre;
     private int duracion;

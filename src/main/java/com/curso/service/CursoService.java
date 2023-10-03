@@ -48,6 +48,9 @@ public interface CursoService {
      * @param maxPrecio Precio máximo del curso.
      * @return Lista de cursos que cumplen con el criterio de precio.
      */
-    List<Curso> cursosPorPrecio(int minPrecio, int maxPrecio);    
+    List<Curso> cursosPorPrecio(int minPrecio, int maxPrecio);   
+    
+    
+  
 
 }
